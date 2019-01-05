@@ -1,6 +1,1 @@
-{
-  "students": [
-    { "name": "John", "age": 30, "city": "NYC", "grade": 75 },
-    { "name": "Emily", "age": 28, "city": "LA", "grade": 80 }
-  ]
-}
+{"students":[{"name":"John","age":30,"city":"NYC","grade":75},{"name":"Emily","age":28,"city":"LA","grade":80},{"name":"John","age":"30","city":"NYC","grade":"75"},{"name":"John","age":"30","city":"NYC","grade":"75"},{"name":"John","age":30,"city":"NYC","grade":75}]}

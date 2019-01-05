@@ -16,7 +16,16 @@ FileService.fileToJSON = (className, cb) => {
     const json = JSON.parse(bufferedString);
     cb(err, json);
   });
+}
 
+FileService.JSONtoFile = (className, json, cb) => {
+  const path = `./classes/${className}.json`;
+  const stringifiedJSON = JSON.stringify(json);
+
+  fs.writeFile(path, stringifiedJSON, (err) => {
+    cb(err);
+    return;
+  });
 }
 
 
